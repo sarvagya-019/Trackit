@@ -1,49 +1,41 @@
-![build](https://github.com/wisnukurniawan/Compose-Wallee/actions/workflows/build.yml/badge.svg)
+# 📊 TrackIt - Expense Tracker App
 
-## Compose playground: Expense Tracker
+**TrackIt** is a sleek and lightweight Android application designed to help users track their daily expenses with ease and efficiency. Built using **Kotlin**, **Jetpack Compose**, **XML**, and some **Java**, this app provides a clean, modern UI and practical features for everyday financial tracking.
 
-<a href='https://play.google.com/store/apps/details?id=com.wisnu.kurniawan.wallee'><img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png' width=240/></a>
+---
 
-Compose playground for learning purpose
+## 🚀 Features
 
-* UI completely in [Jetpack Compose](https://developer.android.com/jetpack/compose)
-* Uses [Kotlin Coroutines](https://kotlinlang.org/docs/reference/coroutines/coroutines-guide.html)
-* Uses [Kotlin Flow](https://kotlinlang.org/docs/flow.html)
-* Uses many of the [Architecture Components](https://developer.android.com/topic/libraries/architecture/), including: Room, DataStore, Navigation, ViewModel
-* Uses [Hilt](https://dagger.dev/hilt/) for dependency injection
-* Uses [Java 8+ API desugaring support](https://developer.android.com/studio/write/java8-support#library-desugaring) for date and time usage
+- ✅ Add and manage daily expenses
+- 💰 Categorize expenses for better budgeting
+- 📅 View history of expenses by date
+- 📈 Summarize total expenses
+- 📁 Data stored locally (offline functionality)
+- ✨ Modern UI using Jetpack Compose and XML
 
-<img src="art/ps-1.png" width="260">  <img src="art/ps-2.png" width="260">  <img src="art/ps-3.png" width="260">
+---
 
-## Large screen
+## 🛠️ Tech Stack
 
-<img src="art/demo.gif" width="400">
+- **Kotlin** – Primary development language  
+- **Jetpack Compose** – For modern declarative UI  
+- **XML** – Used in legacy components/layouts  
+- **Java** – Used in selected modules or helper classes  
+- **Android Studio** – Development IDE  
+- **Local File Storage** – To store expenses locally
 
-<img src="art/demo2.gif" width="400">
+---
 
-## Prerequisites
+## 📸 Screenshots
 
-* Android Studio Iguana | 2023.2.1
-* Min SDK 21
-* Target SDK 34
-* AGP 8.3.0
-* Java 11
-* Kotlin 1.9.22
+> ![image](https://github.com/user-attachments/assets/94314663-cc13-4612-a49a-0de896cf565a)
 
-## Setup
 
-1. Clone this repository, `git clone https://github.com/wisnukurniawan/Compose-Wallee.git`
-2. Open via [Android studio](https://developer.android.com/studio)
-3. Sync the project, **File -> Sync Project with Gradle files**
+---
 
-## How to build
+## 📦 Installation
 
-* Generate debug apk `./gradlew assembleDebug`
-* Run unit test `./gradlew testDebug`
-* Install on connected device `./gradlew installDebug`
+1. Clone the repository:
 
-## Others
-
-* [Mercury architecture](https://github.com/wisnukurniawan/Compose-ToDo/blob/main/doc/architecture.md)
-* [Project structure](https://github.com/wisnukurniawan/Compose-ToDo/blob/main/doc/project-structure.md)
-* [Modularization](https://github.com/wisnukurniawan/Compose-ToDo/blob/main/doc/module.md)
+   ```bash
+   git clone https://github.com/sarvagya-019/trackit.git
